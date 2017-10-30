@@ -1,0 +1,106 @@
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+summary::-webkit-details-marker { display: none; }
+
+body {
+  font: normal 18px 'Roboto Condensed', sans-serif;
+  background: linear-gradient(to bottom, #d1dbbd, #fcfef5);
+  color: #3e606f;
+}
+
+header {
+  width: 920px;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+}
+
+h1 {
+  float: left;
+  background: transparent url("logo.png") 0 0 no-repeat;
+  padding: 45px 0 15px 113px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #193441;
+}
+
+nav {
+  float: right;
+  padding: 75px 0 0 0;
+}
+
+nav li {
+  display: inline-block; 
+}
+
+nav a {
+  display: block;
+  padding: 10px 40px 14px 40px;
+  text-decoration: none;
+  color: #91aa9d;
+  background-color: #fcfff5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+nav a.active {
+  color: #fcfff5;
+  background-color: #91aa9d;
+}
+
+main {
+  width: 960px; 
+  margin: 0 auto;
+  clear: both;
+  background: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 5px 5px #b5b5b5;
+}
+
+img.mast {
+  display: block;
+  margin-bottom: 42px;
+  width: 100%;
+
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+  padding-bottom: 26px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+figure {
+  float: right;
+  padding: 0 0 20px 30px;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-size: 14px; 
+}
+
+
+
+
+
+
+
+
