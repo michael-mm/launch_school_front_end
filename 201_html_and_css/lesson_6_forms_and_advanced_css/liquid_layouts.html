@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Liquid Layouts</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+
+      /* fluid layout */
+
+      main {
+        min-width: 600px;
+        max-width: 1400px;
+      }
+
+      /* liquid layout */
+
+      #content,
+      #sidebar {
+        padding: 20px 30px;
+      }
+      #content {
+        float: left;
+        width: 70%;
+        box-sizing: border-box;
+      }
+      #sidebar {
+        /* float: left;
+           width: 30%; */
+
+        overflow: hidden;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+
+    <main>
+      <div id="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      </div>
+
+      <div id="sidebar">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat non
+        proident.
+      </div>
+    </main>
+
+  </body>
+</html>

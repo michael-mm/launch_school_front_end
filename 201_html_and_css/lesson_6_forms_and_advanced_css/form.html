@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Form</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+  <form action="/login" method="get">
+  <fieldset>
+    <h1>Log In</h1>
+    <label for="email">Email address</label>
+    <input type="email" name="email" id="email" />
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" inp/>
+    <div class="actions">
+      <input type="submit" value="Login" />
+      <button type="submit" formaction="/account/delete">Delete account</button>
+      <button type="submit" formaction="/account/password_reset">Reset password</button>
+    </div>
+  </fieldset>
+</form>
+<br />
+<form id="search" action="/search" method="get">
+  <fieldset>
+    <input type="search" name="query" />
+  </fieldset>
+</form>
+
+<input type="submit" value="Search" form="search" />
+  
+  </body>
+</html> 
