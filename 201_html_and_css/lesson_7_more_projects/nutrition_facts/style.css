@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+  font: 28px Helvetica, Arial, sans-serif;
+  background: #fff;
+}
+
+body {
+  margin: 10px;
+}
+
+article {
+  width: 680px;
+  border: 2px solid #000;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 15px solid #000;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  border-top: 30px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 1rem;
+  padding: 10px 0;
+  margin-top: 5px; 
+}
+
+header dl {
+  display: inline-block;
+  width: 49.4%;
+  padding: 5px 0;
+}
+
+dt {
+  display: inline;
+  font-weight: 600;
+}
+
+dd {
+  display: inline;
+}
+
+header dl+dl {
+text-align: right;
+}
+
+header dl+dl dt {
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: right;
+  padding: 2px 0;
+  font-weight: 600;
+}
+
+sup {
+  vertical-align: 2px;
+}
+
+tbody th {
+  border-top: 1px solid #000;
+  padding: 2px 0;
+  font-weight: normal;
+  text-align: left;
+}
+
+tr td:last-of-type {
+  font-weight: 600;
+  text-align: right;
+}
+
+tbody td {
+  padding: 2px 0;
+  border-top: 1px solid #000;
+}
+
+td.indent {
+  width: 1rem;
+  border-top: none;
+}
+
+em {
+  font-style: italic;
+}
+
+td dt {
+  font-weight: normal;
+}
+
+tbody + tbody tr:first-of-type td {
+  border-top: 20px solid #000;
+}
+
+tbody + tbody tr td:last-of-type {
+  font-weight: normal;
+}
+
+tfoot td:last-of-type {
+  font-size: .9rem;
+  font-weight: normal;
+  text-align: left;
+  padding: .5rem 0 .5rem .7rem;
+  text-indent: -.7rem;
+  border-top: 1px solid #000;
+}
+
+table + table {
+  font-size: .8rem;
+}
+
+table + table thead th {
+  width: 37%;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+table + table thead th + th {
+  width: 21%;
+}
+
+table + table td {
+  border: none;
+}
+
+table + table tr td:last-of-type {
+  font-weight: normal;
+  text-align: left;
+}
+
+table + table td.indent {
+  width: auto;
+  text-indent: 1.2rem;
+}
+
+
+
+
+
